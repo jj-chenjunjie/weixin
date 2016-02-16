@@ -1,14 +1,7 @@
 package weixin;
 
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlCData;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
-
-@JacksonXmlRootElement(localName="xml")
 public class Person {
 	
-	@JacksonXmlProperty(localName="Name")
-	@JacksonXmlCData
 	private String name;
 	
 	private Integer age;
